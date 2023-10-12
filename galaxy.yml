@@ -1,0 +1,31 @@
+---
+namespace: mbang
+
+name: eda_ntfy
+
+version: 1.0.0
+
+readme: README.md
+
+authors:
+- Michael Bang <mbang.dk@gmail.com>
+
+description: Source plugin for ntfy event for the Ansible Event Driven Automation
+
+license_file: 'LICENSE'
+
+tags:
+  - eda
+  - ntfy
+  - infrastructure
+  - cloud
+
+dependencies: {}
+
+repository: https://github.com/michael-bang/eda_ntfy
+
+documentation: https://github.com/michael-bang/eda_ntfy
+
+issues: https://github.com/michael-bang/eda_ntfy/issues
+
+build_ignore: []
