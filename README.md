@@ -1,4 +1,4 @@
-# Event-Driven Ansible - mbang
+# Event-Driven Ansible
 
 A simple source plugin for Event Driven Ansible that listens for events from ntfy (https://ntfy.sh/)
 
@@ -10,7 +10,7 @@ The following is an example of how to use the ntfy Event Source Plugin within an
 - name: Listen for events from ntfy
   hosts: all
   sources:
-    - mbang.eda_ntfy.ntfy:
+    - michael-bang.eda_ntfy.ntfy:
         server: ntfy.sh
         topic: mytopic
   rules:

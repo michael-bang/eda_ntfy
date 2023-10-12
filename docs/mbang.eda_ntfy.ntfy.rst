@@ -1,7 +1,7 @@
 .. _mbang.eda_ntfy_source_plugin:
 
 *******************
-mbang.eda_ntfy.ntfy
+michael-bang.eda_ntfy.ntfy
 *******************
 
 **Listen for ntfy events**
@@ -80,7 +80,7 @@ Examples
   - name: Listen for events from ntfy
     hosts: all
       sources:
-        - mbang.eda_ntfy.ntfy:
+        - michael-bang.eda_ntfy.ntfy:
             server: ntfy.sh
             topic: mytopic
     rules:

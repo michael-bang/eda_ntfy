@@ -24,7 +24,7 @@ The rulebook below is an example of how to use the event source.
 - name: Listen for events from ntfy
   hosts: all
   sources:
-    - mbang.eda_ntfy.ntfy:
+    - michael-bang.eda_ntfy.ntfy:
         server: ntfy.sh
         topic: mytopic
   rules:
