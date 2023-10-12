@@ -10,7 +10,7 @@ The following is an example of how to use the ntfy Event Source Plugin within an
 - name: Listen for events from ntfy
   hosts: all
   sources:
-    - michael-bang.eda_ntfy.ntfy:
+    - michael_bang.eda_ntfy.ntfy:
         server: ntfy.sh
         topic: mytopic
   rules:
