@@ -77,18 +77,18 @@ Examples
 
 .. code-block:: yaml
 
-    - name: Listen for events from ntfy
-  hosts: all
-  sources:
-    - mbang.eda_ntfy.ntfy:
-        server: ntfy.sh
-        topic: mytopic
-  rules:
-    - name: Print Add Events
-      condition: event.payload.message == 'test'
-      action:
-        debug:
-          msg: Message received 
+  - name: Listen for events from ntfy
+    hosts: all
+      sources:
+        - mbang.eda_ntfy.ntfy:
+            server: ntfy.sh
+            topic: mytopic
+    rules:
+      - name: Print Add Events
+        condition: event.payload.message == 'test'
+        action:
+          debug:
+            msg: Message received 
 
 Return Values
 -------------
